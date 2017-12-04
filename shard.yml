@@ -1,0 +1,19 @@
+name: crystal_for_rubyists
+version: 0.1.0
+
+authors:
+  - Alex Serdyuk <aserdyuk@dius.com.au>
+
+targets:
+  crystal_for_rubyists:
+    main: src/crystal_for_rubyists.cr
+
+crystal: 0.23.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-watcher:
+    github: faustinoaq/kemal-watcher    
